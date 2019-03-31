@@ -21,4 +21,6 @@ Then visit: `http://localhost:3000`
 
 The main component (`Index`) is rendered in the Index view (`app/views/index/index.html.erb`)
 
+## SAGAS
+
 When clicking on a TODO item, in the console you will see the message from `SAGAS` indicating the `id` of the TODO, and after one second the TODO will be TOGGLE.
