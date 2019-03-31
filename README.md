@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo implements the Redux example [found here](https://redux.js.org/basics/example) with [React-Rails](https://github.com/reactjs/react-rails)
 
-Things you may want to cover:
+## How to test it
 
-* Ruby version
+In one terminal:
 
-* System dependencies
+```
+bundle install
+rails s
+```
 
-* Configuration
+In another one:
 
-* Database creation
+```
+./bin/webpack-dev-server
+```
 
-* Database initialization
+Then visit: `http://localhost:3000`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The main component (`Index`) is rendered in the Index view (`app/views/index/index.html.erb`)
