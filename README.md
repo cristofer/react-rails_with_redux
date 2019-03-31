@@ -20,3 +20,7 @@ In another one:
 Then visit: `http://localhost:3000`
 
 The main component (`Index`) is rendered in the Index view (`app/views/index/index.html.erb`)
+
+## With SAGAS
+
+In case you are interested to see how this example works with [sagas](https://redux-saga.js.org/), then you can check in the corresponding [branch](https://github.com/cristofer/react-rails_with_redux/tree/redux-saga)
