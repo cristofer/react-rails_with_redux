@@ -11,7 +11,7 @@ export const setVisibilityFilter = filter => ({
 })
 
 export const toggleTodo = id => ({
-  type: 'TOGGLE_TODO',
+  type: 'TOGGLE_TODO_ASYNC',
   id
 })
 
